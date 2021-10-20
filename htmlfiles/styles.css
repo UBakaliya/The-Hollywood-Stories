@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+
+/* information that will give a idea to a user that whne they click on the images they will have one minute timer */
+#info{
+
+  background-color:rgb(255, 0, 0);
+  color :rgb(95, 47, 47);
+  text-align: center;
+  width: 300px;
+  border: 5px solid rgb(255, 255, 255);
+  position:absolute;
+  top:40%;
+  left:40%;
+  margin-top:-100px; /* this is half the height of your div*/  
+  margin-left:-100px; /*this is half of width of your div*/
+  
+}
+/* #clickontheimg{
+
+  color: red
+
+
+} */
+
+/* MAIN PAGE FUNCTION */
+#main_page{
+  background-color: black;
+  background-image: url('/media/hollywood.jpg' ) ;
+
+  
+
+}
+/* there will be all four functions that are only for BGROUND COLOR  */ 
+
+#secondbgcolor{
+  background-color:cornflowerblue;
+  text-align: center;
+  font-family: Rampart One;
+
+}
+
+#thirdbgcolor{
+  background-color: grey;
+  text-align: center;
+  font-family: Rampart One;
+  
+
+
+}
+#fourthbgcolor{
+  background-color: khaki;
+  text-align: center;
+  font-family: Rampart One;
+} 
+#bg_page_5{
+  background-color:green;
+  text-align: center;
+  font-family: Rampart One;
+}
+
+#story_1_family{
+  font-family: IBM Plex Sans;
+
+}
+
+/* ----------------------------------- */
+
+
+
+/* ------------------------------------------ */
+/* images that are below are the images that user will see on the front page */
+/* we want images on the crnors and the info box around will be surunded by the iamges */
+#image1{
+float: left;
+margin: 100;
+  /* background-color: aquamarine; */
+
+
+
+}
+#image2{
+  /* top:50%;
+  right:100%; */
+  float: right;
+  margin: 100;
+
+
+
+}
+#image3{
+  clear: right;
+  float: left;
+  margin: -1000;
+
+
+
+}
+#image4{
+  clear: left;
+  float: right;
+  margin: -100;
+
+
+
+}
+/* ------------------------------------------------- */
+
+
+
+/* below are the questions pages that */
+/* 
+#timer_send_user_to_next_page{
+  background-color:white;
+  margin-left: 45%;
+
+  border: 10px solid transparent; 
+  border-top-color: black; 
+  box-sizing: border-box; 
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0; */
+  /* display: inline-block;
+  width: 50px;
+  border: 1px solid #000;
+  text-align: center; */
+
+ 
+/* } */ 
+
+
+#timer_1{
+  /* color: red; */
+  
+  display:inline;
+  width: 100x;
+  border: 10px solid rgb(71, 7, 7);
+  text-align: center;
+
+}
+
+/* -------------------------------------- */
+/* queston page BGROUND COLOR  */
+#Q_page_1{
+  background-color: aqua;
+
+
+
+
+}
+
+#Q_page_2{
+  background-color:greenyellow;
+  
+
+
+
+}
+#Q_page_Hilary_swank_3{
+  background-color: indianred;
+
+
+
+}
+
+
+/* ------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+
+/* below is a aimation of the story text  */
+#story_text{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+
+
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 100;
+  }
+
+  25% {
+    /* font-size: 300%; */
+    margin-left: 300;
+    width: 200;
+  }
+
+  to {
+    /* margin-left: 70%; */
+    width: 100%;
+  }
+}
+
+
+/* -------------------------- */
+/*qestions button css */
+#button1{
+  background-color: black;
+  color: white;
+
+
+}
+
+
+/* #coutdown{
+background-color:white;
+display: inline-flex; 
+justify-content: right;
+margin:0;
+font-size: 50px; 
+height: 70px;
+width: 200px;
+
+} */
