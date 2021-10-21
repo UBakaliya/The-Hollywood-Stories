@@ -85,14 +85,20 @@ function check() {
    if (q2 == "Rainy day") {c++}
    if (q3== "Petco") {c++}
       // document.write(c);
-   quesiotns.textContent.discplay = "nonn"
-   result.textContent = "$(c)";
+quesiotns.textContent.discplay = "nonn"
+   // result.textContent = '$(c)';
 
-   if(c <=3 ){
-      quesiotns.textContent = "Better luck next timer, you got ,$(c), out to three queitons. " 
+   if(c < 2 ){
+      quesiotns.textContent = `you got ${c}, Better luck next timer`
 
    }else{
-   quesiotns.textContent ="you pass, you got $(c) out of three qestions. "
+      quesiotns.textContent =`you Pass, you got ${c}`
 
    }
 }
+
+ function restart() {
+
+   window.location.replace("/htmlfiles/index.html")
+    
+ }

@@ -36,16 +36,17 @@
 /* there will be all four functions that are only for BGROUND COLOR  */ 
 
 #secondbgcolor{
-  background-color:cornflowerblue;
+  background-color:rgb(211, 75, 75);
   text-align: center;
   font-family: Rampart One;
+  background-image: url('/media/chrisbg.png' ) ;
 
 }
 
 #thirdbgcolor{
   background-color: grey;
   text-align: center;
-  font-family: Rampart One;
+  background-image: url('/media/valbg.png' ) ;
   
 
 
@@ -54,11 +55,13 @@
   background-color: khaki;
   text-align: center;
   font-family: Rampart One;
+  background-image: url('/media/hilary-swankbg.png' ) ;
 } 
 #bg_page_5{
   background-color:green;
   text-align: center;
   font-family: Rampart One;
+  background-image: url('/media/georgebg.jpeg' ) ;
 }
 
 #story_1_family{
@@ -145,8 +148,15 @@ margin: 100;
 /* -------------------------------------- */
 /* queston page BGROUND COLOR  */
 #Q_page_1{
+  text-align: center;
+  color: rgb(199, 28, 28);
   background-color: aqua;
+  background-image: url('/media/questions.jpeg' ) ;
 
+  width: 1370px;
+
+  height: 700px;
+  border: 25px solid rgb(44, 180, 117);
 
 
 
@@ -154,6 +164,7 @@ margin: 100;
 
 #Q_page_2{
   background-color:greenyellow;
+  background-image: url('/media/questions.jpeg' ) ;
   
 
 
@@ -161,6 +172,7 @@ margin: 100;
 }
 #Q_page_Hilary_swank_3{
   background-color: indianred;
+  background-image: url('/media/questions.jpeg' ) ;
 
 
 
