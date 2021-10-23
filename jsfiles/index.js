@@ -1,6 +1,6 @@
 window.onload = function () {
     var minute = 0;
-    var sec = 0;
+    var sec = 30;
     setInterval(function () {
        document.getElementById("timer_1").innerHTML =
           minute + " : " + sec;
@@ -20,7 +20,7 @@ window.onload = function () {
 
 //  window.onload = function () {
     var minute_2 = 0;
-    var sec_2 = 60;
+    var sec_2 = 30;
     setInterval(function () {
        document.getElementById("timer_2").innerHTML =
           minute_2 + " : " + sec_2;
@@ -37,7 +37,7 @@ window.onload = function () {
 //  };
 
 var minute_3 = 0;
-var sec_3 = 60;
+var sec_3 = 30;
 setInterval(function () {
    document.getElementById("timer_3").innerHTML =
       minute_3 + " : " + sec_3;
@@ -53,7 +53,7 @@ setInterval(function () {
 }, 1000);
 
 var minute_4 = 0;
-var sec_4 = 60;
+var sec_4 = 30;
 setInterval(function () {
    document.getElementById("timer_4").innerHTML =
       minute_4 + " : " + sec_4;
@@ -69,7 +69,7 @@ setInterval(function () {
 }, 1000);
 
 
-// 
+
 
 function check() {
  
@@ -89,10 +89,10 @@ quesiotns.textContent.discplay = "nonn"
    // result.textContent = '$(c)';
 
    if(c < 2 ){
-      quesiotns.textContent = `you got ${c}, Better luck next timer`
+      quesiotns.textContent = `You Failed.You got ${c}/3, Better luck next timer`
 
    }else{
-      quesiotns.textContent =`you Pass, you got ${c}`
+      quesiotns.textContent =`You Pass, You got ${c}/3`
 
    }
 }

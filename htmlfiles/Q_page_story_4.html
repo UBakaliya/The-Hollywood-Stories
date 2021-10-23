@@ -4,40 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/htmlfiles/styles.css" />
     <title>Questions</title>
 </head>
-<body>
-    <script src="/jsfiles/q_page_4.js"></script>
-       <h1>ANSWER THE QUESTIONS THAT ARE BELOW</h1>
-       <!-- user will have choice to silect a right answer for the  two optons -->
+<body id = "q_for_Brad">
+  <script src="/jsfiles/q_page_4.js"></script>  
 
-   
-    <div id = "Question_swank_1">
-       <p>where was the Guy?</p>
-    <form name = "q_page_3", id = q_page_3>   
-      <p><input type="radio" id="NYC" name="q3_1" value="NYC">NYC</p>
-      <p><input type="radio" id="His friend" name="q3_1"value="CHI">CHI</p>
-      <p><input type="radio" id="His friend" name="q3_1"value="Home">Home</p>
-      <p><input type="radio" id="None of the above" name="q3_1"value="None of the above">None of the above</p>
+    <form name = "Q_page_4", id = "q_page_4">  
+  
+      <h1>ANSWER THE QUESTIONS THAT ARE BELOW</h1>
+      <div id = "Question_brad_1">
+      <p>Who's been pranking for years?</p> 
+      <p><input type="radio" id="NYC" name="q4_1" value="NYC">No one</p>
+      <p><input type="radio" id="His friend" name="q4_1"value="CHI"> Brad Pitt and George Clooney</p>
+      <p><input type="radio" id="His friend" name="q4_1"value="Home">not a part of the story</p>
+      <p><input type="radio" id="None of the above" name="q4_1"value="None of the above">None of the above</p>
   </div>
 
-  <div id = "Question_swank_2">
-    <p>who did they spotted?</p>
-  <p><input type="radio" id="One of there friend" name="q3_2"value="One of there friend">One of there friend </p>
-  <p><input type="radio" id="Hillary Swank" name="q3_2" value="Hillary Swank"> Hillary Swank</p>
-  <p><input type="radio" id="Charliy chaplin" name="q3_2"value="Charliy chaplin">Charliy chaplin</p>
-  <p><input type="radio" id="None of the above" name="q3_2"value="None of the above">None of the above</p>
+  <div id = "Question_brad_2">
+    <p>How it all begain?</p>
+  <p><input type="radio" id="One of there friend" name="q4_2"value="One of there friend"> everything began when they were on vaction </p>
+  <p><input type="radio" id="Hillary Swank" name="q4_2" value="Hillary Swank"> everything began when they were filling</p>
+  <p><input type="radio" id="Charliy chaplin" name="q4_2"value="Charliy chaplin">everything began when Clooney teased Pitt with an embarrassing note</p>
+  <p><input type="radio" id="None of the above" name="q4_2"value="None of the above">None of the above</p>
 </div>
 
-<div id = "Question_swank_3">
-    <p> who did he say that go say hi if it is a such a big deail?<p>
-   <p><input type="radio" id="Waither" name="q3_3"value="Waither" >Waither</p>
-   <p><input type="radio" id="Not part of the story" name="q3_3"value="Not part of the story">Not part of the story</p>
-   <p><input type="radio" id="His friend" name="q3_3"value="His friend"> His friend</p>
-   <p><input type="radio" id="His friend" name="q3_3"value="None of the above">None of the above</p>
-  </div>
-  <input type="button" name = "" value = "I'am done" onclick = "check()">
+<div id = "Question_brad_3">
+    <p> How did Brad Pitt took a revenge?<p>
+   <p><input type="radio" id="Waither" name="q4_3"value="Waither" >during the making of Ocean’s Twelve</p>
+   <p><input type="radio" id="Not part of the story" name="q4_3"value="Not part of the story">he didn't take revenge</p>
+   <p><input type="radio" id="His friend" name="q4_3"value="His friend"> he stop fillnig wiht him</p>
+   <p><input type="radio" id="His friend" name="q4_3"value="None of the above">None of the above</p>
+  
+</div>
+  
+
+<input type="button" name = "" value = "I'am done" onclick = "check()">
+
 </form>
 
+<p id = "text_result"></p>
+<button id= "restartbutton" onclick= restart()>Restart</button>
 </body>
 </html>
