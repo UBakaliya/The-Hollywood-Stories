@@ -12,7 +12,7 @@
   width: 300px;
   border: 5px solid rgb(255, 255, 255);
   position:absolute;
-  top:40%;
+  top:35%;
   left:40%;
   margin-top:-100px; /* this is half the height of your div*/  
   margin-left:-100px; /*this is half of width of your div*/
@@ -40,7 +40,7 @@
   text-align: center;
   font-family: Rampart One;
   background-image: url('/media/chrisbg1.jpeg' ) ;
-  color: darkolivegreen;
+  color: rgb(2, 120, 255);
 
 }
 
@@ -68,7 +68,7 @@
 #story_1_family{
   
   font-family: IBM Plex Sans;
-  font-size: larger;
+  font-size:xx-large;
 
 
 }
