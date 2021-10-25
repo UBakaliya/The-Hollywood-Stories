@@ -25,7 +25,7 @@ quesiotns.textContent.discplay = "nonn"
 }
 
 function restart() {
-   window.location.replace("index.html")
+   window.location.replace("../index.html")
  }
 
  
