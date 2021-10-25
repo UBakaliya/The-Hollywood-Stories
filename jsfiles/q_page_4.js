@@ -25,6 +25,6 @@ if(c < 2 ){
  }
  
   function restart() {
-    window.location.replace("/htmlfiles/index.html")
+    window.location.replace("index.html")
      
   }
