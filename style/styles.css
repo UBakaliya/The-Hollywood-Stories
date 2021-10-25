@@ -28,7 +28,7 @@
 /* MAIN PAGE FUNCTION */
 #main_page{
   background-color: rgb(214, 202, 202);
-  background-image: url('media/hollywood.jpg' ) ;
+  background-image: url('/media/hollywood.jpg' ) ;
 
   
 
@@ -39,7 +39,7 @@
   background-color:rgb(207, 200, 200);
   text-align: center;
   font-family: Rampart One;
-  background-image: url('media/chrisbg1.jpeg' ) ;
+  background-image: url('/media/chrisbg1.jpeg' ) ;
   color: rgb(2, 120, 255);
 
 }
@@ -47,7 +47,7 @@
 #thirdbgcolor{
   background-color: grey;
   text-align: center;
-  background-image: url('media/valbg.png' ) ;
+  background-image: url('/media/valbg.png' ) ;
   
 
 
@@ -56,13 +56,13 @@
   background-color: khaki;
   text-align: center;
   font-family: Rampart One;
-  background-image: url('media/hilary-swankbg.png' ) ;
+  background-image: url('/media/hilary_swankbg.png' ) ;
 } 
 #bg_page_5{
   background-color:green;
   text-align: center;
   font-family: Rampart One;
-  background-image: url('media/georgebg.jpeg' ) ;
+  background-image: url('/media/georgebg.jpeg' ) ;
 }
 
 #story_1_family{
@@ -261,7 +261,7 @@ margin: 100;
 
   text-align: center;
 /* for some resone the quesitns page 3 bg is not chnging */
-  background-image: url('media/questions.jpeg' ) ;
+  background-image: url('/media/questions.jpeg' ) ;
   margin: auto;
   padding: auto;
   width: 1370px;
