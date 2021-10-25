@@ -29,7 +29,7 @@ window.onload = function () {
           minute_2--;
         //   sec = 60;
           if (minute_2 <0) {
-             window.location.replace("art151project2/htmlfiles/Q_page_story_2.html")
+             window.location.replace("Q_page_story_2.html")
 
           }
        }
@@ -46,7 +46,7 @@ setInterval(function () {
       minute_3--;
     //   sec = 60;
       if (minute_3 <0) {
-         window.location.replace("/htmlfiles/Q_page_story_3.html")
+         window.location.replace("Q_page_story_3.html")
 
       }
    }
@@ -62,7 +62,7 @@ setInterval(function () {
       minute_4--;
     //   sec = 60;
       if (minute_4 <0) {
-         window.location.replace("/htmlfiles/Q_page_story_4.html")
+         window.location.replace("Q_page_story_4.html")
 
       }
    }
