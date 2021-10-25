@@ -9,7 +9,7 @@ window.onload = function () {
           minute--;
         //   sec = 60;
           if (minute <0) {
-             window.location.replace("/htmlfiles/Q_page_story_1.html")
+             window.location.replace("../htmlfiles/Q_page_story_1.html")
 
           }
        }
