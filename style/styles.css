@@ -41,13 +41,15 @@
   text-align: center;
   font-family: Rampart One;
   -webkit-background-size: cover;
-  background-image: url('../media/chrisbg1.jpeg' ) ;
+  /* background-image: url('../media/chrisbg1.jpeg' ) ; */
   color:rgb(24, 207, 95);
 
 }
 #secondbgcolor::before {    
   content: "";
-  /* background-image: url('../media/chrisbg1.jpeg' ) ; */
+  width: 1500px;
+  height: 700px;
+  background-image: url('../media/chrisbg1.jpeg' ) ;
   background-size: cover;
   position: absolute;
   top: 0px;
