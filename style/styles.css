@@ -36,50 +36,145 @@
 /* there will be all four functions that are only for BGROUND COLOR  */ 
 
 #secondbgcolor{
-  background-color:rgb(207, 200, 200);
+  position: relative;
+  background-color:black;
   text-align: center;
   font-family: Rampart One;
+  -webkit-background-size: cover;
   background-image: url('../media/chrisbg1.jpeg' ) ;
-  color: rgb(2, 120, 255);
+  color:rgb(24, 207, 95);
+
+}
+#secondbgcolor::before {    
+  content: "";
+  /* background-image: url('../media/chrisbg1.jpeg' ) ; */
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+#oprcity{
+  position: relative;
 
 }
 
 #thirdbgcolor{
-  background-color: grey;
+  position: relative;
+  background-color:rgb(0, 0, 0);
   text-align: center;
-  background-image: url('../media/valbg.png' ) ;
+  font-family: Rampart One;
+  -webkit-background-size: cover;
   
+  /* background-image: url('../media/valbg.png' ) ; */
+  color:rgb(255, 55, 29);
 
 
 }
+#thirdbgcolor::before {    
+  content: "";
+  width: 1500px;
+  height: 700px;
+  
+  background-image: url('../media/valbg.png' ) ;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+#story3textfont{
+  position: relative;
+
+}
+
 #fourthbgcolor{
-  background-color: khaki;
+  position: relative;
+  background-color:black;
   text-align: center;
   font-family: Rampart One;
+  -webkit-background-size: cover;
+  
+  /* background-image: url('../media/hilary_swankbg.png' ) ; */
+  color:rgb(24, 207, 95);
+
+
+}
+#fourthbgcolor::before {    
+  content: "";
+  width: 1500px;
+  height: 700px;
   background-image: url('../media/hilary_swankbg.png' ) ;
-} 
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+
+#story4textfont{
+  position: relative;
+
+}
+
+
 #bg_page_5{
+  position: relative;
+  background-color: black;
+  text-align: center;
+  /* -webkit-background-size: cover; */
+
+  /* background-image: url('../media/georgebg.jpeg' ) ; */
+  color:rgb(24, 207, 95);
+} 
+
+#bg_page_5::before { 
+  width: 1500px;
+  height: 700px;   
+  content: "";
+  background-image: url('../media/georgebg.jpeg' ) ;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+#story5textfont{
+  position: relative;
+
+}
+/* #bg_page_5{
   background-color:green;
   text-align: center;
   font-family: Rampart One;
+  -webkit-background-size: cover;
   background-image: url('../media/georgebg.jpeg' ) ;
-}
+} */
 
 #story_1_family{
   
   font-family: IBM Plex Sans;
-  font-size:xx-large;
+  font-size: large;
 
 
 }
 #thirdbgcolor{
-  font-size:xx-large;
+  font-size: large;
   font-family: Rampart One;
 
 }
 #story3textfont{
-  font-size:xx-large;
-  color :white;
+  font-size: large;
+  color :rgb(30, 163, 180);
   font-family: IBM Plex Sans;
 
 }
@@ -327,7 +422,7 @@ margin: 100;
 /* below is a aimation of the story text  */
 /* all of the text that are moveing and the ids that are give we 
 caliing them below */
-#story_text{
+#oprcity{
   animation-duration: 3s;
   animation-name: slidein;
 }
