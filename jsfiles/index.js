@@ -79,6 +79,7 @@ function check() {
    var q3 = document.q1_page_1.q1_3.value;
    var result = document.getElementById("text_result")
    var quesiotns = document.getElementById("q1_page_1")
+   var btm1 = document.querySelector("button1");
 
 
    if (q1 =="He though that Chris came to buy food for his dog." ) {c++}
@@ -89,10 +90,16 @@ quesiotns.textContent.discplay = "nonn"
    // result.textContent = '$(c)';
 
    if(c < 2 ){
-      quesiotns.textContent = `You Failed.You got ${c}/3, Better luck next timer`
+   
+            quesiotns.textContent = `You Failed.You got ${c}/3, Better luck next timer`
 
    }else{
+    
       quesiotns.textContent =`You Pass, You got ${c}/3`
+      btm1.addEventListener("click", ()=>{
+         document.body.backgroundImage = "url('../media/passfail(pass.jpeg')";
+      
+      });
 
    }
 }
@@ -101,4 +108,6 @@ quesiotns.textContent.discplay = "nonn"
 
    window.location.replace("../index.html")
     
+
  }
+
